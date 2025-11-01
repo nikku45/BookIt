@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import HomePage from "./components/home/HomePage";
 import DetailPage from "./components/detail/DetailPage";
 import CheckoutPage from "./components/checkout/CheckoutPage";
 import ConfirmationPage from "./components/confirmation/confirmationPage";

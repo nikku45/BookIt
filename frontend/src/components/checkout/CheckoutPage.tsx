@@ -1,5 +1,5 @@
 // src/components/checkout/CheckoutPage.tsx
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect,  useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import type{ Experience, Slot } from "../../types";
 import { validatePromo } from "../../api/promo";
@@ -34,7 +34,7 @@ const CheckoutPage: React.FC = () => {
 
   if (!state) return null;
 
-  const { experience, selectedDate, selectedTime, slot } = state;
+  const { experience, selectedDate, selectedTime } = state;
 
   // base price
   const basePrice = experience.price;
