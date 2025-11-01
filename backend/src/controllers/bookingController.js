@@ -1,7 +1,7 @@
 import asyncHandler from "express-async-handler";
 import Experience from "../models/Experience.js";
 import Booking from "../models/Booking.js";
-import generateRefId from "../Utils/generateRefid.js";
+import generateRefId from "../Utils/generateRefID.js";
 
 /*
 Create booking flow:
