@@ -8,7 +8,7 @@ import errorHandler from "./middlewares/errorHandler.js";
 const app = express();
 app.use(cors(
     {
-        origin: ['http://localhost:5173', 'https://book-it-now-nu.vercel.app/'],
+        origin: ['http://localhost:5173', 'https://book-it-now-nu.vercel.app'],
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type', 'Authorization']
     }
